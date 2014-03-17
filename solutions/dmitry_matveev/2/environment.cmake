@@ -124,7 +124,7 @@ if (BOOST_STAGE_FOLDER_WITH_ADDRESS_MODEL)
 	set( BOOST_LIBRARYDIR "$ENV{BOOST_ROOT}/stage_${CMAKE_ADDRESS_MODEL}/lib" )
 endif(BOOST_STAGE_FOLDER_WITH_ADDRESS_MODEL)
 
-add_definitions( -DBOOST_FILESYSTEM_VERSION=2 )
+add_definitions( -DBOOST_FILESYSTEM_VERSION=3 )
 if (${VERBOSE})
 	message( STATUS " -T: Using Boost filesystem version: 2" )
 endif(${VERBOSE})

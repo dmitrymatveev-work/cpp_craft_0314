@@ -1,7 +1,7 @@
 @echo off
 
 set SOLUTION_NAME=puzzle_2_solution
-set BOOST_ROOT="C:\Program Files (x86)\Boost\v1_55"
+set BOOST_ROOT=C:/Program Files (x86)/Boost/v1_55
 
 set BUILD_TYPE=Debug
 if [%1]==[Release] (
